@@ -23,11 +23,18 @@ if (isTouchDevice()) {
 
 (function() {
     var header = $('.js-header'),
+        links = header.find('.header__item'),
         burger = header.find('.js-header-burger'),
         wrapper = header.find('.js-header-wrapper'),
         html = $('html'),
         body = $('body');
     burger.on('click', function() {
+        burger.toggleClass('active');
+        wrapper.toggleClass('visible');
+        html.toggleClass('no-scroll');
+        body.toggleClass('no-scroll');
+    });
+    links.on('click', function() {
         burger.toggleClass('active');
         wrapper.toggleClass('visible');
         html.toggleClass('no-scroll');
