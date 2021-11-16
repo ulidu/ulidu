@@ -4,16 +4,15 @@
 
 <h2>Hey there! <img alt="" src="https://github.com/ulidu/ulidu/raw/master/public/img/Hand%20Wave1.gif" width='40' align="left"/> I'm Ulidu Gunathilake</h2>
 
-<img alt="Night Coding" width="300" src="https://github.com/ulidu/ulidu/raw/master/public/img/coding.gif" align="right"/>
+<img alt="coding" width="300" src="https://github.com/ulidu/ulidu/raw/master/public/img/coding.gif" align="right"/>
 
 ### 😊 &nbsp;About Me
 
 - 🔭 I’m currently working on some amazing projects.
 - 🌱 I’m currently learning web development.
 - 👯 I’m looking to collaborate on web development.
-- 📫 How to reach me: ulidutheerake@gmail.com
 - ⚡ Fun fact: Not many people know this about me, but when I was younger, I… <a href="#">See More</a> 😉
-- ✉️ You can shoot me an email at ulidutheerake@gmail.com. I'll try to respond as soon as I can.
+- 📫 You can shoot me an email at ulidutheerake@gmail.com. I'll try to respond as soon as I can.
 - 📄 My Curriculum Vitae : <a style="color: red;" target="_blank" href="https://github.com/ulidu/ulidu/raw/master/public/img/Resume_Ulidu.pdf">Check out Here!</a>
 
 ### 🛠 &nbsp;Tech Stack
