@@ -4,7 +4,7 @@
 
 <h2>Hey there! <img alt="" src="https://github.com/ulidu/ulidu/raw/master/public/img/Hand%20Wave1.gif" width='40' align="left"/> I'm Ulidu Gunathilake</h2>
 
-<img alt="coding" width="300" src="https://github.com/ulidu/ulidu/raw/master/public/img/coding.gif" align="right"/>
+<img alt="coding" width="200" src="https://github.com/ulidu/ulidu/raw/master/public/img/coding.gif" align="right"/>
 
 ### 😊 &nbsp;About Me
 
