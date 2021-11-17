@@ -2,7 +2,7 @@
   <img src="https://github.com/ulidu/ulidu/raw/master/public/img/hello.gif" width='500'>
 </p>
 
-<h2>Hey there! <img alt="" src="https://github.com/ulidu/ulidu/raw/master/public/img/Hand%20Wave1.gif" width='40' align="left"/> I'm Ulidu Gunathilake <img align="right" src="https://komarev.com/ghpvc/?username=ulidu&label=Profile%20views&color=0e75b6&style=flat-square" alt="ulidu" /></h2>
+<h2>Hey there! <img alt="" src="https://github.com/ulidu/ulidu/raw/master/public/img/Hand%20Wave1.gif.gif" width='40' align="left"/> I'm Ulidu Gunathilake <img align="right" src="https://komarev.com/ghpvc/?username=ulidu&label=Profile%20views&color=0e75b6&style=flat-square" alt="ulidu" /></h2>
 <img alt="coding" width="400" src="https://github.com/ulidu/ulidu/raw/master/public/img/b.gif" align="right"/>
 
 ### 😊 &nbsp;About Me
