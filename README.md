@@ -43,23 +43,23 @@
 
 ### ☄️ Github Streaks:
 <p align="left">
-    <img alt="streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ulidu&theme=dark&hide_border=true"/>
+    <img alt="streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ulidu&theme=light&hide_border=true"/>
 </p>
 
 ### ⚙️ &nbsp;GitHub Analytics
 
 <p align="left">
 <a href="https://github.com/ulidu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ulidu&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulidu&layout=compact&langs_count=8&theme=dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ulidu&show_icons=true&theme=light&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulidu&layout=compact&langs_count=8&theme=light"/>
 </a>
 </p>
 
 ### 🚀 Some of my Projects 💻
 
-[![Code Complexity Measuring Tool](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Code-Complexity-Tool&theme=dark&hide_border=true")](https://github.com/ulidu/Code-Complexity-Tool)
-[![UI-UX Upgrade on www.nie.lk](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=NIE&theme=dark&hide_border=true")](https://github.com/ulidu/NIE)
+[![Code Complexity Measuring Tool](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Code-Complexity-Tool&theme=light&hide_border=true")](https://github.com/ulidu/Code-Complexity-Tool)
+[![UI-UX Upgrade on www.nie.lk](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=NIE&theme=light&hide_border=true")](https://github.com/ulidu/NIE)
 
-[![Nerdee - The AR Learning Application](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Nerdee-The-AR-Learning-Application&theme=dark&hide_border=true")](https://github.com/ulidu/Nerdee-The-AR-Learning-Application)
-[![Docunex](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Docunex&theme=dark&hide_border=true")](https://github.com/ulidu/Docunex)
+[![Nerdee - The AR Learning Application](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Nerdee-The-AR-Learning-Application&theme=light&hide_border=true")](https://github.com/ulidu/Nerdee-The-AR-Learning-Application)
+[![Docunex](https://github-readme-stats.vercel.app/api/pin/?username=ulidu&repo=Docunex&theme=light&hide_border=true")](https://github.com/ulidu/Docunex)
 
