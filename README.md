@@ -50,8 +50,8 @@
 
 <p align="left">
 <a href="https://github.com/ulidu">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ulidu&show_icons=true&theme=light&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulidu&layout=compact&langs_count=8&theme=light"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ulidu&show_icons=true&theme=light&hide_border=true&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulidu&layout=compact&langs_count=8&theme=light&hide_border=true"/>
 </a>
 </p>
 
