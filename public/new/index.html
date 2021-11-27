@@ -1,1220 +1,674 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
 
 <head>
+    <meta charset="utf-8">
+    <title>Ulidu T Gunathilake | UX/UI developer | Web developer</title>
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <meta name="description" content="Name of your web site">
-    <meta name="author" content="Marketify">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <title>Know | Home</title>
-
-    <!-- STYLES -->
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
-    <link rel="stylesheet" type="text/css" href="css/dark.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!--<link rel="stylesheet" type="text/css" href="css/dark.css" />-->
-    <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-    <!-- /STYLES -->
-
+    <meta content="I design for future." name="description">
+    <meta content="I design for future." property="og:title">
+    <meta content="I design for future." property="og:description">
+    <meta content="Ulidu T" property="og:site_name">
+    <link href="css/app.min.css" media="all" rel="stylesheet">
+    <script>
+        var viewportmeta = document.querySelector('meta[name="viewport"]');
+        if (viewportmeta) {
+            if (screen.width < 375) {
+                var newScale = screen.width / 375;
+                viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+            } else {
+                viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+            }
+        }
+    </script>
 </head>
 
 <body>
+<div class="page">
+    <div class="main">
+        <div class="header js-header" id="header">
+            <div class="header__center center"><a class="header__logo" href="index.html">
+                <img alt="" class="header__pic" src="img/logo.svg"/></a>
+                <div class="header__social header__social_main">
+                    <a class="header__link" target="_blank" href="https://github.com/ulidu">
+                        <img style="opacity: 0.5" height="18" src="img/gihub.png" width="18">
+                        &nbsp;&nbsp;&nbsp; Github
+                    </a>
 
-    <!-- PRELOADER -->
-    <div id="preloader">
-        <div class="loader_line"></div>
+                    <a class="header__link" target="_blank" href="mailto:ulidutheerake@gmail.com">
+                        <img style="opacity: 0.5" height="14" src="img/mail.png">
+                        &nbsp;&nbsp;&nbsp; Email
+                    </a>
+                </div>
+                <button class="header__burger js-header-burger"></button>
+            </div>
+            <div class="header__wrapper js-header-wrapper">
+                <div class="header__preview"><a class="header__logo" href="index.html">
+                    <img alt=""
+                                                                                            class="header__pic"
+                                                                                            src="img/logowhite.png"/></a>
+                    <div class="header__img"><img alt="" class="header__pic" src="img/content/bg-header.png"/></div>
+                </div>
+                <div class="header__center center">
+                    <div class="header__contacts">
+                        <a class="header__line" href="mailto:ulidutheerake@gmail.com">
+                            <div class="header__icon">
+                                <svg fill="none" height="15" viewBox="0 0 18 15" width="18"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z"
+                                          fill="#4c40f7"
+                                          fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="header__text">ulidutheerake@gmail.com</div>
+                        </a>
+                        <div class="header__line">
+                            <div class="header__icon">
+                                <svg fill="none" height="18" viewBox="0 0 18 18" width="18"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z"
+                                          fill="#4c40f7"
+                                          fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="header__text">
+                                <p>No. 333, Sisil Sewana,</p>
+                                <p>Kelimune, Maspotha, Kurunegala, Sri Lanka.</p>
+                                <p>60344.</p>
+                            </div>
+                        </div>
+                        <a class="header__line" href="tel:+940716183426">
+                            <div class="header__icon">
+                                <svg fill="none" height="18" viewBox="0 0 17 18" width="17"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z"
+                                          fill="#4c40f7"
+                                          fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="header__text">+94 71 61 83 426</div>
+                        </a>
+                    </div>
+                    <nav class="header__nav"><a class="header__item" href="#details"><span>About</span></a><a
+                            class="header__item" href="#dcont"><span>Services</span></a>
+                        <a class="header__item" href="#cases"><span>Work</span></a><a
+                            class="header__item" href="#contact"><span>Contact</span></a></nav>
+                    <div class="header__social header__social_inner">
+                        <a class="header__link" target="_blank" href="https://github.com/ulidu">
+                            <img style="opacity: 0.5" height="18" src="img/gihub.png" width="18">
+                            &nbsp;&nbsp;&nbsp; Github
+                        </a>
+
+                        <a class="header__link" target="_blank" href="mailto:ulidutheerake@gmail.com">
+                            <img style="opacity: 0.5" height="14" src="img/mail.png">
+                            &nbsp;&nbsp;&nbsp; Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__bg"><img alt="" class="main__pic" src="img/content/bg-main.jpg"></div>
+        <div class="main__center center">
+            <div class="main__wrap">
+                <div class="main__stage stage" data-aos="transform">Ulidu Theerake</div>
+                <h1 class="main__title title h1"><span data-aos="transform" data-aos-delay="150">Hello, my</span><span
+                        data-aos="transform" data-aos-delay="300">name's Ulidu.</span>
+                    <span data-aos="transform" data-aos-delay="450" style="font-weight: normal;">I'm a Visual</span>
+                    <span data-aos="transform" data-aos-delay="600" style="font-weight: normal;">Designer. </span>
+                    <span data-aos="transform" data-aos-delay="750"
+                          style="font-weight: normal;">And a Web Developer.</span></h1>
+                <a class="scroll js-scroll" data-aos="transform" href="#details">
+                    <div class="scroll__icon"><img alt="" class="scroll__pic" src="img/scroll.svg"></div>
+                    <div class="scroll__text">Scroll down</div>
+                </a>
+            </div>
+        </div>
+        <div class="main__view" data-aos>
+            <div class="main__preview"><img alt="" class="main__pic" src="img/content/main-pic-6.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic js-parallax" data-orientation="up"
+                                            data-scale="2.5" src="img/content/main-pic-1.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic js-parallax" data-orientation="up"
+                                            data-scale="1.5" src="img/content/main-pic-2.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic" src="img/content/main-pic-3.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic" src="img/content/main-pic-4.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic js-parallax" data-orientation="up"
+                                            data-scale="4.5" src="img/content/main-pic-5.png"></div>
+            <div class="main__preview"><img alt="" class="main__pic js-parallax" data-orientation="down"
+                                            data-scale="1.5" src="img/content/main-pic-7.png"></div>
+        </div>
+        <div class="main__figures">
+            <div class="main__figure" data-aos="animation-translate-y"><img alt=""
+                                                                            class="main__pic js-parallax" data-orientation="down"
+                                                                            data-scale="2.2" src="img/content/figure-1.png"></div>
+            <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="200"><img
+                    alt="" class="main__pic js-parallax" data-orientation="up" data-scale="2.2"
+                    src="img/content/figure-2.png"></div>
+            <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="400"><img alt=""
+                                                                                                 class="main__pic"
+                                                                                                 src="img/content/figure-3.png"></div>
+        </div>
     </div>
-    <!-- /PRELOADER -->
+    <div class="details" id="details">
+        <div class="details__center center">
+            <div class="details__head" data-aos="animation-scale-y">
+                <img width="300" src="img/profile.png">
+                <div class="details__stage stage">I'm Ulidu T Gunathilake</div>
 
-    <!-- WRAPPER ALL -->
-    <div class="know_tm_all_wrap" data-magic-cursor="show">
-        <!-- If you want disable magic cursor change value to "hide" -->
 
-        <!-- MODALBOX -->
-        <div class="know_tm_modalbox">
-            <div class="box_inner">
-                <div class="close">
-                    <a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
-                </div>
-                <div class="description_wrap"></div>
+                <br>
+                <div class="h5">What I Do</div>
+                <h3 class="details__info h3">I enjoy creating delightful, <br>human-centered digital experiences.</h3>
             </div>
-        </div>
-        <!-- /MODALBOX -->
-
-        <!-- TOPBAR -->
-        <div class="know_tm_topbar">
-            <div class="container">
-                <div class="topbar_inner">
-                    <div class="logo">
-                        <a href="#"><img src="img/logo/dark.png" alt="" /></a>
-                    </div>
-                    <div class="right">
-                        <div class="know_tm_button">
-                            <a href="img/cv/1.jpg" download>Download CV</a>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="details__title" data-aos="animation-scale-y">Think. Make. <br>Solve. </h2>
+            <div class="details__btn" data-aos="animation-translate-y">
+                <button class="btn btn_purple"><span class="btn__text">Contact Me</span>
+                    <svg fill="none" height="16" viewBox="0 0 22 16" width="22" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z"
+                              fill="#fff"
+                              fill-rule="evenodd"></path>
+                    </svg>
+                </button>
             </div>
-        </div>
-        <!-- /TOPBAR -->
-
-        <!-- HERO -->
-        <div class="know_tm_hero_second">
-            <div class="background_shape"></div>
-            <div class="container">
-                <div class="main_info">
-                    <div class="left">
-                        <span class="subtitle">I'm</span>
-                        <h3 class="name">Tom Anderson</h3>
-                        <p class="text">A passionate UI/UX Designer and Senior Web Developer based In NYC, USA</p>
-                        <div class="social">
-                            <ul>
-                                <li><a href="#"><img class="svg" src="img/svg/social/facebook-2.svg" alt="" /></a></li>
-                                <li><a href="#"><img class="svg" src="img/svg/social/twitter-2.svg" alt="" /></a></li>
-                                <li><a href="#"><img class="svg" src="img/svg/social/instagram-2.svg" alt="" /></a></li>
-                                <li><a href="#"><img class="svg" src="img/svg/social/linkedin-2.svg" alt="" /></a></li>
-                                <li><a href="#"><img class="svg" src="img/svg/social/youtube-3.svg" alt="" /></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="image">
-                            <div class="main" data-img-url="img/hero/2.jpg"></div>
-                            <span class="first anim_translate"></span>
-                            <span class="second anim_left2"></span>
-                            <span class="third anim_right2"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hero Shapes -->
-            <span class="one anim_circle"><img class="svg" src="img/svg/shapes/11.svg" alt="" /></span>
-            <span class="two anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="three anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="four anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="five anim_circle"><img class="svg" src="img/svg/shapes/11.svg" alt="" /></span>
-            <span class="six anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="seven anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="eight anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="nine anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="ten anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="eleven anim_circle"><img class="svg" src="img/svg/shapes/11.svg" alt="" /></span>
-            <span class="twelve anim_circle"><img class="svg" src="img/svg/shapes/11.svg" alt="" /></span>
-            <span class="thirteen anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="fourteen anim_circle"><img class="svg" src="img/svg/shapes/11.svg" alt="" /></span>
-            <span class="fifteen anim_scale2"><img class="svg" src="img/svg/shapes/6.svg" alt="" /></span>
-            <span class="sixteen anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="seventeen anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <span class="eighteen anim_scale2"><img class="svg" src="img/svg/shapes/10.svg" alt="" /></span>
-            <!-- /Hero Shapes -->
-
-        </div>
-        <!-- /HERO -->
-
-        <!-- EXTRA MENU -->
-        <div class="know_tm_extra_menu">
-            <div class="container">
-                <div class="menu_list">
-                    <ul class="unordered">
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/archive.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>About Me</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#about"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/contacs.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Resume</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#resume"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/briefcase.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Portfolio</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#portfolio"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/gear.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Service</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#service"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/message.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Testimonials</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#testimonials"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/writing.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Blog</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#news"></a>
-                            </div>
-                        </li>
-                        <li class="unorderest_li">
-                            <div class="list_in">
-                                <div class="list_icon">
-                                    <img class="svg" src="img/svg/letter.svg" alt="" />
-                                </div>
-                                <div class="center">
-                                    <span>Contact</span>
-                                </div>
-                                <div class="down_icon">
-                                    <img class="svg" src="img/svg/down.svg" alt="" />
-                                </div>
-                                <a class="know_tm_full_link" href="#contact"></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- /EXTRA MENU -->
-
-        <!-- MAINPART -->
-        <div class="container">
-
-            <!-- ABOUT -->
-            <div id="about" class="know_tm_main_section">
-                <div class="know_tm_about">
-                    <div class="left">
-                        <div class="left_inner">
-                            <div class="image">
-                                <img src="img/thumbs/35-44.jpg" alt="" />
-                                <div class="main" data-img-url="img/about/2.jpg"></div>
-                            </div>
-                            <div class="details">
-                                <ul>
-                                    <li>
-                                        <h3>Name</h3>
-                                        <span>Tom Anderson</span>
-                                    </li>
-                                    <li>
-                                        <h3>Birthday</h3>
-                                        <span>April 22, 1990</span>
-                                    </li>
-                                    <li>
-                                        <h3>Mail</h3>
-                                        <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="83ebe6efefecc3e2ede7e6f1f0ecedade0ecee">[email&#160;protected]</a></span>
-                                    </li>
-                                    <li>
-                                        <h3>Phone</h3>
-                                        <span>+123 456 7890</span>
-                                    </li>
-                                    <li>
-                                        <h3>Address</h3>
-                                        <span>20, Bardeshi, Dhaka</span>
-                                    </li>
-                                    <li>
-                                        <h3>Nationality</h3>
-                                        <span>Bangladeshi</span>
-                                    </li>
-                                </ul>
+            <div id="dcont" class="details__container">
+                <div class="details__slider owl-carousel js-slider-details">
+                    <div class="details__item">
+                        <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                            <div class="details__img"><img alt="" class="details__pic" src="img/content/cursor.png">
                             </div>
                         </div>
-                    </div>
-                    <div class="right">
-                        <div class="know_tm_main_title">
-                            <span>About Me</span>
-                            <h3>World leading UI/UX designer</h3>
+                        <h5 class="details__category h5" data-aos="animation-scale-y">User Interface</h5>
+                        <div class="details__text" data-aos="animation-scale-y">We have got quite a few already made
+                            templates for better project management that you can use now.
                         </div>
-                        <div class="bigger_text">
-                            <p>A passionate UI/UX Designer and Web Developer based In NYC, USA</p>
-                        </div>
-                        <div class="text">
-                            <p>Hi! My name is Tom Anderson. I am UI/UX designer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your
-                                project a success.</p>
-                        </div>
-                        <div class="know_tm_button">
-                            <a href="img/cv/1.jpg" download>Download CV</a>
+                        <div class="details__btn" data-aos="animation-scale-y">
+                            <button class="btn btn_dark">Find out more</button>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- /ABOUT -->
-
-            <!-- RESUME -->
-            <div id="resume" class="know_tm_main_section">
-                <div class="know_tm_resume">
-                    <div class="know_tm_main_title">
-                        <span>Resume</span>
-                        <h3>Combination of Skill &amp; Experience</h3>
+                    <div class="details__item">
+                        <div class="details__preview details__preview_hand" data-aos="animation-scale"
+                             data-aos-delay="150">
+                            <div class="details__img"><img alt="" class="details__pic" src="img/content/hand.png"></div>
+                        </div>
+                        <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">User
+                            Experience</h5>
+                        <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150">We have got quite a
+                            few already made templates for better project management that you can use now.
+                        </div>
+                        <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="150">
+                            <button class="btn btn_dark">Find out more</button>
+                        </div>
                     </div>
-                    <div class="resume_inner">
-                        <div class="left">
-                            <div class="info_list">
-                                <div class="know_tm_resume_title">
-                                    <h3>Education</h3>
-                                    <span class="shape"></span>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="short">
-                                                <div class="job">
-                                                    <h3>Cognitive Sciences</h3>
-                                                    <span>University of Maine</span>
-                                                </div>
-                                                <div class="year">
-                                                    <span>2018 - 2020</span>
-                                                </div>
-                                            </div>
-                                            <div class="text">
-                                                <p>The goal of cognitive science is to understand the principles of intelligence with the hope that this will lead to better comprehension.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="short">
-                                                <div class="job">
-                                                    <h3>Civil Engineering</h3>
-                                                    <span>University of Texas</span>
-                                                </div>
-                                                <div class="year">
-                                                    <span>2016 - 2017</span>
-                                                </div>
-                                            </div>
-                                            <div class="text">
-                                                <p>Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="short">
-                                                <div class="job">
-                                                    <h3>Bachelor of Science</h3>
-                                                    <span>Univercity of Dhaka</span>
-                                                </div>
-                                                <div class="year">
-                                                    <span>2012 - 2015</span>
-                                                </div>
-                                            </div>
-                                            <div class="text">
-                                                <p>This project is called a thesis and is usually presented in front of a group of people, including university professors who will evaluate it and let the student..</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="info_list">
-                                <div class="know_tm_resume_title">
-                                    <h3>Experience</h3>
-                                    <span class="shape"></span>
-                                </div>
-                                <ul>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="short">
-                                                <div class="job">
-                                                    <h3>UI/UX Designer</h3>
-                                                    <span>Envato Market</span>
-                                                </div>
-                                                <div class="year">
-                                                    <span>2018 - running</span>
-                                                </div>
-                                            </div>
-                                            <div class="text">
-                                                <p>Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="list_inner">
-                                            <div class="short">
-                                                <div class="job">
-                                                    <h3>Creative Designer</h3>
-                                                    <span>Bahanno Digital</span>
-                                                </div>
-                                                <div class="year">
-                                                    <span>2015 - 2017</span>
-                                                </div>
-                                            </div>
-                                            <div class="text">
-                                                <p>Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                    <div class="details__item">
+                        <div class="details__preview details__preview_color" data-aos="animation-scale"
+                             data-aos-delay="300">
+                            <div class="details__img"><img alt="" class="details__pic"
+                                                           src="img/content/color-picker.png"></div>
+                        </div>
+                        <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">UI Design
+                            Kit</h5>
+                        <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300">We have got quite a
+                            few already made templates for better project management that you can use now.
+                        </div>
+                        <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300">
+                            <button class="btn btn_dark">Find out more</button>
+                        </div>
+                    </div>
+                    <div class="details__item">
+                        <div class="details__preview details__preview_cursor">
+                            <div class="details__img"><img alt="" class="details__pic" src="img/content/cursor.png">
                             </div>
                         </div>
-                        <div class="right">
-                            <div class="skills_list">
-                                <div class="know_tm_resume_title">
-                                    <h3>Personal Skills</h3>
-                                    <span class="shape"></span>
-                                </div>
-                                <div class="personal">
-                                    <div class="dodo_progress">
-                                        <div class="progress_inner" data-value="90">
-                                            <span><span class="label">Time Management</span><span class="number">90%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="progress_inner" data-value="70">
-                                            <span><span class="label">Effeciency</span><span class="number">70%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="progress_inner" data-value="80">
-                                            <span><span class="label">Intigrity</span><span class="number">80%</span></span>
-                                            <div class="background">
-                                                <div class="bar">
-                                                    <div class="bar_in"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="skills_list">
-                                <div class="know_tm_resume_title">
-                                    <h3>Software Skills</h3>
-                                    <span class="shape"></span>
-                                </div>
-                                <div class="software">
-                                    <div class="circular_progress_bar">
-                                        <ul>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.8"></div>
-                                                    <div class="title">
-                                                        <h3>Ms Office</h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.75"></div>
-                                                    <div class="title">
-                                                        <h3>Photoshop</h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.9"></div>
-                                                    <div class="title">
-                                                        <h3>Illustrator</h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="list_inner">
-                                                    <div class="myCircle" data-value="0.65"></div>
-                                                    <div class="title">
-                                                        <h3>Figma</h3>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="details__category h5">User Interface</h5>
+                        <div class="details__text">We have got quite a few already made templates for better project
+                            management that you can use now.
                         </div>
+                        <button class="details__btn btn btn_dark">Find out more</button>
                     </div>
-                </div>
-            </div>
-            <!-- /RESUME -->
-
-            <!-- PORTFOLIO -->
-            <div id="portfolio" class="know_tm_main_section">
-                <div class="know_tm_portfolio">
-                    <div class="know_tm_main_title">
-                        <span>Resume</span>
-                        <h3>My works that I did for clients</h3>
-                    </div>
-                    <div class="portfolio_filter">
-                        <ul>
-                            <li><a href="#" class="current" data-filter="*">All</a></li>
-                            <li><a href="#" data-filter=".vimeo">Vimeo</a></li>
-                            <li><a href="#" data-filter=".youtube">Youtube</a></li>
-                            <li><a href="#" data-filter=".soundcloud">Soundcloud</a></li>
-                            <li><a href="#" data-filter=".detail">Detail</a></li>
-                        </ul>
-                    </div>
-                    <div class="portfolio_list">
-                        <ul class="gallery_zoom">
-                            <li class="vimeo">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/social/vimeo.svg" alt="" />
-                                    <div class="details">
-                                        <span>Vimeo</span>
-                                        <h3>Aumeo Audio</h3>
-                                    </div>
-                                    <a class="know_tm_full_link popup-vimeo" href="https://vimeo.com/337293658"></a>
-                                </div>
-                            </li>
-                            <li class="youtube">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/2.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/social/youtube-2.svg" alt="" />
-                                    <div class="details">
-                                        <span>Youtube</span>
-                                        <h3>Bicker &amp; Jenna</h3>
-                                    </div>
-                                    <a class="know_tm_full_link popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"></a>
-                                </div>
-                            </li>
-                            <li class="soundcloud">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/3.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/social/soundcloud.svg" alt="" />
-                                    <div class="details">
-                                        <span>Soundcloud</span>
-                                        <h3>Botanical Escape</h3>
-                                    </div>
-                                    <a class="know_tm_full_link soundcloude_link mfp-iframe audio" href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></a>
-                                </div>
-                            </li>
-                            <li class="detail">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/4.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/text.svg" alt="" />
-                                    <div class="details">
-                                        <span>Detail</span>
-                                        <h3>Unique Chair</h3>
-                                    </div>
-                                    <a class="know_tm_full_link portfolio_popup" href="#"></a>
-
-                                    <div class="hidden_content">
-                                        <div class="popup_details">
-                                            <div class="main_details">
-                                                <div class="textbox">
-                                                    <p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance ease of modification.</p>
-                                                    <p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will
-                                                        represent the target product.</p>
-                                                </div>
-                                                <div class="detailbox">
-                                                    <ul>
-                                                        <li>
-                                                            <span class="first">Client</span>
-                                                            <span>Alvaro Morata</span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Category</span>
-                                                            <span><a href="#">Detail</a></span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Date</span>
-                                                            <span>March 07, 2021</span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Share</span>
-                                                            <ul class="share">
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="additional_images">
-                                                <ul>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/2.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/3.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li class="youtube">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/6.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/social/youtube-2.svg" alt="" />
-                                    <div class="details">
-                                        <span>Youtube</span>
-                                        <h3>Model Car</h3>
-                                    </div>
-                                    <a class="know_tm_full_link popup-youtube" href="https://www.youtube.com/watch?v=l-epKcOA7RQ"></a>
-                                </div>
-                            </li>
-                            <li class="detail">
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/1-1.jpg" alt="" />
-                                        <div class="main" data-img-url="img/portfolio/8.jpg"></div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                    <img class="svg" src="img/svg/text.svg" alt="" />
-                                    <div class="details">
-                                        <span>Detail</span>
-                                        <h3>Teresa Melbig</h3>
-                                    </div>
-                                    <a class="know_tm_full_link portfolio_popup" href="#"></a>
-
-                                    <div class="hidden_content">
-                                        <div class="popup_details">
-                                            <div class="main_details">
-                                                <div class="textbox">
-                                                    <p>We live in a world where we need to move quickly and iterate on our ideas as flexibly as possible. Building mockups strikes the ideal balance ease of modification.</p>
-                                                    <p>Mockups are useful both for the creative phase of the project - for instance when you're trying to figure out your user flows or the proper visual hierarchy - and the production phase when they will
-                                                        represent the target product.</p>
-                                                </div>
-                                                <div class="detailbox">
-                                                    <ul>
-                                                        <li>
-                                                            <span class="first">Client</span>
-                                                            <span>Alvaro Morata</span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Category</span>
-                                                            <span><a href="#">Detail</a></span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Date</span>
-                                                            <span>March 07, 2021</span>
-                                                        </li>
-                                                        <li>
-                                                            <span class="first">Share</span>
-                                                            <ul class="share">
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
-                                                                <li><a href="#"><img class="svg" src="img/svg/social/instagram.svg" alt="" /></a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="additional_images">
-                                                <ul>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/1.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/2.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="list_inner">
-                                                            <div class="my_image">
-                                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                                <div class="main" data-img-url="img/portfolio/3.jpg"></div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- /PORTFOLIO -->
-
-            <!-- SERVICES -->
-            <div id="service" class="know_tm_main_section">
-                <div class="know_tm_services">
-                    <div class="know_tm_main_title">
-                        <span>Service</span>
-                        <h3>Never compromise with quality</h3>
-                    </div>
-                    <div class="service_list">
-                        <ul>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/squares.svg" alt="" /></span>
-                                    <h3 class="title">Wireframing</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/1.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/physics.svg" alt="" /></span>
-                                    <h3 class="title">Prototype</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/2.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/web.svg" alt="" /></span>
-                                    <h3 class="title">UI Design</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/3.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/user.svg" alt="" /></span>
-                                    <h3 class="title">Personal Creation</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/4.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/briefcase.svg" alt="" /></span>
-                                    <h3 class="title">Case Study</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/5.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <span class="icon"><img class="svg" src="img/svg/writing_2.svg" alt="" /></span>
-                                    <h3 class="title">Experience Design</h3>
-                                    <p class="text">Web development is the building and maintenance of websites. it’s the work that...</p>
-                                    <a class="know_tm_full_link" href="#"></a>
-                                    <div class="hidden_content">
-                                        <div class="service_informations">
-                                            <div class="image">
-                                                <img src="img/thumbs/4-2.jpg" alt="" />
-                                                <div class="main" data-img-url="img/service/6.jpg"></div>
-                                            </div>
-                                            <div class="description">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- /SERVICES -->
-
-            <!-- TESTIMONIALS -->
-            <div id="testimonials" class="know_tm_main_section">
-                <div class="know_tm_testimonials">
-                    <div class="know_tm_main_title">
-                        <span>Testimonials</span>
-                        <h3>What people say about me</h3>
-                    </div>
-                    <div class="testimonials_list owl-carousel owl-theme">
-                        <div class="list_inner">
-                            <div class="in">
-                                <div class="text">
-                                    <p>These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!</p>
-                                </div>
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="avatar">
-                                            <div class="main" data-img-url="img/testimonials/1.jpg"></div>
-                                        </div>
-                                        <div class="info">
-                                            <h3>Jecob Oramson</h3>
-                                            <span>Designer</span>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="details__item">
+                        <div class="details__preview details__preview_hand">
+                            <div class="details__img"><img alt="" class="details__pic" src="img/content/hand.png"></div>
                         </div>
-                        <div class="list_inner">
-                            <div class="in">
-                                <div class="text">
-                                    <p>The design is elegant. The customer support on this product is also amazing. I would highly recommend you to purchase templates from the Marketify team!</p>
-                                </div>
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="avatar">
-                                            <div class="main" data-img-url="img/testimonials/2.jpg"></div>
-                                        </div>
-                                        <div class="info">
-                                            <h3>Kerry Hudson</h3>
-                                            <span>IBO. Corp</span>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="details__category h5">User Experience</h5>
+                        <div class="details__text">We have got quite a few already made templates for better project
+                            management that you can use now.
                         </div>
-                        <div class="list_inner">
-                            <div class="in">
-                                <div class="text">
-                                    <p>Not only was customer support very fast, but the design is very professional. Will definitely be looking for new products in the future from this author.</p>
-                                </div>
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="avatar">
-                                            <div class="main" data-img-url="img/testimonials/3.jpg"></div>
-                                        </div>
-                                        <div class="info">
-                                            <h3>Albert Walker</h3>
-                                            <span>Singer</span>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
+                        <button class="details__btn btn btn_dark">Find out more</button>
+                    </div>
+                    <div class="details__item">
+                        <div class="details__preview details__preview_color">
+                            <div class="details__img"><img alt="" class="details__pic"
+                                                           src="img/content/color-picker.png"></div>
                         </div>
-                        <div class="list_inner">
-                            <div class="in">
-                                <div class="text">
-                                    <p>The Author had done a great job, it's clean and easy to understand the code. Comment blocks made it really easy to read the code.</p>
-                                </div>
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="avatar">
-                                            <div class="main" data-img-url="img/testimonials/4.jpg"></div>
-                                        </div>
-                                        <div class="info">
-                                            <h3>Arnold Hookins</h3>
-                                            <span>Photographer</span>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
+                        <h5 class="details__category h5">UI Design Kit</h5>
+                        <div class="details__text">We have got quite a few already made templates for better project
+                            management that you can use now.
                         </div>
-                        <div class="list_inner">
-                            <div class="in">
-                                <div class="text">
-                                    <p>I can't believe I got support and my problem resolved in minutes from posting my question. Simply amazing team and amazing theme! Thank you!</p>
-                                </div>
-                                <div class="details">
-                                    <div class="left">
-                                        <div class="avatar">
-                                            <div class="main" data-img-url="img/testimonials/5.jpg"></div>
-                                        </div>
-                                        <div class="info">
-                                            <h3>Aura Brooklyn</h3>
-                                            <span>Fashion Model</span>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-                                        <img class="svg" src="img/svg/left-quote.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /TESTIMONIALS -->
-
-            <!-- NEWS -->
-            <div id="news" class="know_tm_main_section">
-                <div class="know_tm_news">
-                    <div class="know_tm_main_title">
-                        <span>Blog</span>
-                        <h3>Latest tips, tricks &amp; Updates</h3>
-                    </div>
-                    <div class="news_list">
-                        <ul>
-                            <li>
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/37-27.jpg" alt="" />
-                                        <div class="main" data-img-url="img/news/1.jpg"></div>
-                                        <a class="know_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">Web Design</a></span>
-                                        <h3 class="title"><a href="#">How to create a website using WordPress</a></h3>
-                                    </div>
-
-                                    <div class="hidden_content">
-                                        <div class="news_informations">
-                                            <div class="text">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/37-27.jpg" alt="" />
-                                        <div class="main" data-img-url="img/news/2.jpg"></div>
-                                        <a class="know_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">Branding</a></span>
-                                        <h3 class="title"><a href="#">Angular team streamlines requests</a></h3>
-                                    </div>
-
-                                    <div class="hidden_content">
-                                        <div class="news_informations">
-                                            <div class="text">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="list_inner">
-                                    <div class="image">
-                                        <img src="img/thumbs/37-27.jpg" alt="" />
-                                        <div class="main" data-img-url="img/news/3.jpg"></div>
-                                        <a class="know_tm_full_link" href="#"></a>
-                                    </div>
-                                    <div class="details">
-                                        <span class="category"><a href="#">UI Design</a></span>
-                                        <h3 class="title"><a href="#">How to handle errors in React Javascript</a></h3>
-                                    </div>
-
-                                    <div class="hidden_content">
-                                        <div class="news_informations">
-                                            <div class="text">
-                                                <p>Know is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help
-                                                    grow your business and achieve your goals.</p>
-                                                <p>In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design
-                                                    services can have an immense impact on your company’s bottom line.</p>
-                                                <p>That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over
-                                                    50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- /NEWS -->
-
-
-            <!-- CONTACT -->
-            <div id="contact" class="know_tm_main_section">
-                <div class="know_tm_contact">
-                    <div class="know_tm_main_title">
-                        <span>Contact Me</span>
-                        <h3>Contact me to get your work done</h3>
-                    </div>
-                    <div class="wrapper">
-                        <div class="left">
-                            <ul>
-                                <li>
-                                    <div class="list_inner">
-                                        <span class="icon"><img class="svg" src="img/svg/smartphone.svg" alt="" /></span>
-                                        <div class="short">
-                                            <h3>Call Me</h3>
-                                            <span>+123 456 7890</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <span class="icon"><img class="svg" src="img/svg/letter.svg" alt="" /></span>
-                                        <div class="short">
-                                            <h3>Email Us</h3>
-                                            <span><a href="#"><span class="__cf_email__" data-cfemail="076f626b6b68476e6c6968702964686a">[email&#160;protected]</span></a>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="list_inner">
-                                        <span class="icon"><img class="svg" src="img/svg/placeholder.svg" alt="" /></span>
-                                        <div class="short">
-                                            <h3>Address</h3>
-                                            <span>20, Bardeshi, Amin Bazar</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="right">
-                            <div class="fields">
-                                <form action="/" method="post" class="contact_form" id="contact_form" autocomplete="off">
-                                    <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
-                                    <div class="empty_notice"><span>Please Fill Required Fields</span></div>
-                                    <div class="input_list">
-                                        <ul>
-                                            <li><input id="name" type="text" placeholder="Your Name" /></li>
-                                            <li><input id="email" type="text" placeholder="Your Email" /></li>
-                                            <li><input id="phone" type="number" placeholder="Your Phone" /></li>
-                                            <li><input id="subject" type="text" placeholder="Subject" /></li>
-                                        </ul>
-                                    </div>
-                                    <div class="message_area">
-                                        <textarea id="message" placeholder="Your message here"></textarea>
-                                    </div>
-                                    <div class="know_tm_button">
-                                        <a id="send_message" href="#">Submit Now</a>
-                                    </div>
-
-                                    <!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /CONTACT -->
-
-        </div>
-        <!-- /MAINPART -->
-
-        <!-- COPYRIGHT -->
-        <div class="know_tm_copyright">
-            <div class="container">
-                <div class="inner">
-                    <div class="left">
-                        <p>Designed with love &copy; <a href="https://themeforest.net/user/marketify" target="_blank">Marketify</a></p>
-                    </div>
-                    <div class="right">
-                        <ul>
-                            <li><a href="#">Terms &amp; Condition</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Login</a></li>
-                        </ul>
+                        <button class="details__btn btn btn_dark">Find out more</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /COPYRIGHT -->
-
-        <!-- MAGIC CURSOR -->
-        <div class="mouse-cursor cursor-outer"></div>
-        <div class="mouse-cursor cursor-inner"></div>
-        <!-- /MAGIC CURSOR -->
-
+        <div class="details__figures">
+            <div class="details__figure"><img alt="" class="details__pic js-parallax" data-orientation="down"
+                                              data-scale="2" src="img/content/figure-1.png"></div>
+            <div class="details__figure"><img alt="" class="details__pic js-parallax" data-orientation="up"
+                                              data-scale="2" src="img/content/figure-2.png"></div>
+            <div class="details__figure"><img alt="" class="details__pic js-parallax" data-orientation="up"
+                                              data-scale="1.2" src="img/content/figure-3.png"></div>
+        </div>
+        <a class="details__contact" href="#">Contact me</a>
     </div>
-    <!-- / WRAPPER ALL -->
-
-    <!-- SCRIPTS -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-    <script src="js/plugins.js"></script>
-    <script src="js/init.js"></script>
-    <!-- /SCRIPTS -->
-
+    <div class="work">
+        <div class="work__circles"></div>
+        <div class="work__center center">
+            <div class="work__wrap">
+                <div class="work__stage stage stage_pink" data-aos="animation-scale-y">Who I Work With</div>
+                <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">Art Direction for
+                    Global Leading Brands.</h2>
+                <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300">I research and create
+                    breakthrough - delightful ideas, leading visual designers.
+                </div>
+                <a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+                    <div class="scroll__icon"><img alt="" class="scroll__pic" src="img/scroll.svg"></div>
+                    <div class="scroll__text">Scroll down</div>
+                </a>
+            </div>
+        </div>
+        <div class="work__preview"><img alt="" class="work__pic js-parallax" data-orientation="down"
+                                        data-scale="2" src="img/content/work-cube.png"></div>
+        <div class="work__figures" data-aos>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="up"
+                                           data-scale="1.3" src="img/content/work-cube-1.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="up left"
+                                           data-scale="1.5" src="img/content/work-cube-2.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="up right"
+                                           data-scale="1.3" src="img/content/work-cube-3.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic" src="img/content/work-cube-4.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="left"
+                                           data-scale="1.1" src="img/content/work-cube-5.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="right"
+                                           data-scale="1.2" src="img/content/work-cube-6.png"></div>
+            <div class="work__figure"><img alt="" class="work__pic js-parallax" data-orientation="down"
+                                           data-scale="1.2" src="img/content/work-cube-7.png"></div>
+        </div>
+    </div>
+    <div class="wrapper wrapper_gradient">
+        <div class="cases cases_main" id="cases">
+            <div class="cases__center center">
+                <div class="cases__stage stage" data-aos="animation-scale-y">Portfolio</div>
+                <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">Look at My <br>Products.
+                </h2>
+                <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300"><a class="cases__link active"
+                                                                                             href="#">Website</a><a
+                        class="cases__link" href="#">Illustration</a><a class="cases__link" href="#">Mobile</a></div>
+                <div class="cases__list js-owl" data-autoheight data-items-mobile-album="1"
+                     data-items-mobile-portrait="1">
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-1.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-2.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-3.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-4.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-5.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                    <a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="case.html">
+                        <div class="cases__preview"><img alt="" class="cases__pic" src="img/content/cases-pic-6.jpg">
+                            <div class="cases__box">Case <br>Study</div>
+                        </div>
+                        <div class="cases__body">
+                            <h4 class="cases__info h4">Collab Landing Page</h4>
+                            <div class="cases__text">UI Kit, Coded Template</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cases__figures">
+                <div class="cases__figure"><img alt="" class="cases__pic js-parallax" data-orientation="down"
+                                                data-scale="2" src="img/content/figure-2.png"></div>
+                <div class="cases__figure"><img alt="" class="cases__pic js-parallax" data-orientation="down"
+                                                data-scale="1.8" src="img/content/figure-3.png"></div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="review__center center">
+                <div class="review__stage stage" data-aos="animation-scale-y">What People Say</div>
+                <h2 class="review__title title h1" data-aos="animation-scale-y" data-aos-delay="200">Trusted by <br>Clients.
+                </h2>
+                <div class="review__container" data-aos="animation-translate-y" data-aos-delay="400">
+                    <div class="review__slider owl-carousel js-slider-review">
+                        <div class="review__item">
+                            <div class="review__text">“ Folio Designer is a clean and creative landing page that matches
+                                with any freelancer or designer, you can easily to build the page in Sketch or Figma.”
+                            </div>
+                            <div class="review__author">
+                                <div class="review__ava"><img alt="" class="review__pic" src="img/content/ava-1.jpg">
+                                </div>
+                                <div class="review__details">
+                                    <div class="review__man h5">Dash</div>
+                                    <div class="review__company">UI8</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="review__text">“ Folio Designer is a clean and creative landing page that matches
+                                with any freelancer or designer, you can easily to build the page in Sketch or Figma.”
+                            </div>
+                            <div class="review__author">
+                                <div class="review__ava"><img alt="" class="review__pic" src="img/content/ava-1.jpg">
+                                </div>
+                                <div class="review__details">
+                                    <div class="review__man h5">Dash</div>
+                                    <div class="review__company">UI8</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="review__text">“ Folio Designer is a clean and creative landing page that matches
+                                with any freelancer or designer, you can easily to build the page in Sketch or Figma.”
+                            </div>
+                            <div class="review__author">
+                                <div class="review__ava"><img alt="" class="review__pic" src="img/content/ava-1.jpg">
+                                </div>
+                                <div class="review__details">
+                                    <div class="review__man h5">Dash</div>
+                                    <div class="review__company">UI8</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__item">
+                            <div class="review__text">“ Folio Designer is a clean and creative landing page that matches
+                                with any freelancer or designer, you can easily to build the page in Sketch or Figma.”
+                            </div>
+                            <div class="review__author">
+                                <div class="review__ava"><img alt="" class="review__pic" src="img/content/ava-1.jpg">
+                                </div>
+                                <div class="review__details">
+                                    <div class="review__man h5">Dash</div>
+                                    <div class="review__company">UI8</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review__bg">
+                <div class="review__preview"><img alt="" class="review__pic js-parallax"
+                                                  data-orientation="down" data-scale="1.5" src="img/content/review-cube.png">
+                </div>
+                <div class="review__preview"><img alt="" class="review__pic" src="img/content/review-cube.png"></div>
+            </div>
+        </div>
+        <div class="wrapper wrapper_dark">
+            <div id="contact" class="contacts">
+                <div class="contacts__center center">
+                    <div class="contacts__container">
+                        <div class="contacts__wrap">
+                            <div class="contacts__stage stage" data-aos="animation-scale-y">Say hello 👋</div>
+                            <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">Let’s Work
+                                <br>Together.</h2>
+                            <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">I’d love to
+                                meet up with you to discuss your venture, and potential collaborations.
+                            </div>
+                        </div>
+                        <div class="contacts__row">
+                            <div class="contacts__details" data-aos="animation-translate-y">
+                                <a class="contacts__line" href="mailto:hello@ui8.net">
+                                    <div class="contacts__icon">
+                                        <svg fill="none" height="15" viewBox="0 0 18 15" width="18"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z"
+                                                  fill="#4c40f7"
+                                                  fill-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__text">hello@ui8.net</div>
+                                </a>
+                                <div class="contacts__line">
+                                    <div class="contacts__icon">
+                                        <svg fill="none" height="18" viewBox="0 0 18 18" width="18"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z"
+                                                  fill="#4c40f7"
+                                                  fill-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__text">
+                                        <p>4074 Ebert Summit Suite 375</p>
+                                        <p>Lake Leonardchester</p>
+                                    </div>
+                                </div>
+                                <a class="contacts__line" href="tel:+441236547890">
+                                    <div class="contacts__icon">
+                                        <svg fill="none" height="18" viewBox="0 0 17 18" width="17"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z"
+                                                  fill="#4c40f7"
+                                                  fill-rule="evenodd"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="contacts__text">+44 123 654 7890</div>
+                                </a>
+                            </div>
+                            <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200">
+                                <div class="contacts__field field">
+                                    <div class="field__wrap">
+                                        <input class="field__input" name="name" placeholder="Name" type="text"/>
+                                        <div class="field__icon">
+                                            <svg fill="none" height="18" viewBox="0 0 17 18" width="17"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.5.875a4.5 4.5 0 0 0-4.5 4.5v2a4.5 4.5 0 1 0 9 0v-2a4.5 4.5 0 0 0-4.5-4.5zM6 5.375a2.5 2.5 0 1 1 5 0v2a2.5 2.5 0 1 1-5 0v-2zM3.547 12.25a1 1 0 0 0-.969-1.75A5 5 0 0 0 0 14.875v2a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-2a5 5 0 0 0-2.578-4.375 1 1 0 1 0-.969 1.75A3 3 0 0 1 15 14.875v1H2v-1a3 3 0 0 1 1.547-2.625z"
+                                                      fill="#111029"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts__field field">
+                                    <div class="field__wrap">
+                                        <input class="field__input" name="email" placeholder="Email" type="email"/>
+                                        <div class="field__icon">
+                                            <svg fill="none" height="17" viewBox="0 0 17 17" width="17"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.707.668a1 1 0 0 1 .238 1.033l-5 14.5a1 1 0 0 1-1.853.093l-3-6.5a1 1 0 0 1 .201-1.126l3-3a1 1 0 0 1 1.414 1.414L9.2 9.589l1.665 3.608 3.52-10.208-10.207 3.52 2.223 1.026a1 1 0 1 1-.838 1.816L1.081 7.283a1 1 0 0 1 .093-1.853l14.5-5a1 1 0 0 1 1.033.238z"
+                                                      fill="#4c40f7"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts__field field">
+                                    <div class="field__wrap">
+                                        <select class="field__select" name="question">
+                                            <option>What are you working on?</option>
+                                            <option>What are you working on? 2</option>
+                                        </select>
+                                        <div class="field__icon">
+                                            <svg fill="none" height="18" viewBox="0 0 12 18" width="12"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M6.664 1.128a1 1 0 0 0-1.329 0l-4.5 4a1 1 0 0 0 1.329 1.495L6 3.213l3.836 3.409a1 1 0 1 0 1.329-1.495l-4.5-4zm-4.5 11a1 1 0 1 0-1.329 1.495l4.5 4a1 1 0 0 0 1.329 0l4.5-4a1 1 0 0 0-1.329-1.495L6 15.537l-3.836-3.41z"
+                                                      fill="#111029"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts__field field field_textarea">
+                                    <div class="field__wrap">
+                                        <textarea class="field__textarea" name="message"
+                                                  placeholder="Message"></textarea>
+                                        <div class="field__icon">
+                                            <svg fill="none" height="18" viewBox="0 0 18 18" width="18"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M.5 2.875a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.532l-2.2 2.64a1 1 0 0 1-1.536 0l-2.2-2.64H2.5a2 2 0 0 1-2-2v-10zm15 0h-13v10h4a1 1 0 0 1 .768.36L9 15.313l1.732-2.078a1 1 0 0 1 .768-.36h4v-10zm-12 3a1 1 0 0 1 1-1h9a1 1 0 1 1 0 2h-9a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9z"
+                                                      fill="#111029"
+                                                      fill-rule="evenodd"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts__btn">
+                                    <button class="btn btn_purple"><span class="btn__text">Let’s Talk</span>
+                                        <svg fill="none" height="16" viewBox="0 0 22 16" width="22"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z"
+                                                  fill="#fff"
+                                                  fill-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contacts__category h5">Let’s connect</div>
+                        <div class="contacts__social">
+                            <div class="contacts__box" data-aos="animation-translate-y"><a class="contacts__link"
+                                                                                           href="#">
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"
+                                          fill="#9f9fa9"></path>
+                                </svg>
+                                <div class="contacts__text">Instagram</div>
+                            </a></div>
+                            <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150"><a
+                                    class="contacts__link" href="#">
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"
+                                          fill="#9f9fa9"></path>
+                                </svg>
+                                <div class="contacts__text">Instagram</div>
+                            </a></div>
+                            <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="300"><a
+                                    class="contacts__link" href="#">
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"
+                                          fill="#9f9fa9"></path>
+                                </svg>
+                                <div class="contacts__text">Instagram</div>
+                            </a></div>
+                            <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450"><a
+                                    class="contacts__link" href="#">
+                                <svg height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"
+                                          fill="#9f9fa9"></path>
+                                </svg>
+                                <div class="contacts__text">Instagram</div>
+                            </a></div>
+                        </div>
+                        <div class="figures">
+                            <div class="figures__preview"><img alt="" class="figures__pic"
+                                                               src="img/content/figures-1.png"/></div>
+                            <div class="figures__preview"><img alt="" class="figures__pic js-parallax"
+                                                               data-orientation="up" data-scale="1.6"
+                                                               src="img/content/figures-2.png"/></div>
+                            <div class="figures__preview"><img alt="" class="figures__pic js-parallax"
+                                                               data-orientation="up" data-scale="1.3"
+                                                               src="img/content/figures-3.png"/></div>
+                            <div class="figures__preview"><img alt="" class="figures__pic"
+                                                               src="img/content/figures-4.png"/></div>
+                            <div class="figures__preview"><img alt="" class="figures__pic js-parallax"
+                                                               data-orientation="down" data-scale="2.3"
+                                                               src="img/content/figures-5.png"/></div>
+                            <div class="figures__preview"><img alt="" class="figures__pic js-parallax"
+                                                               data-orientation="up" data-scale="2"
+                                                               src="img/content/figures-6.png"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer__center center">
+                    <div class="footer__body"><a class="footer__logo" href="index.html"><img alt=""
+                                                                                             class="footer__pic"
+                                                                                             src="img/logo-empty.svg"/></a>
+                        <div class="footer__wrap">
+                            <div class="footer__title h1">You only have one chance to make a first impression.</div>
+                            <div class="footer__info h4">Let’s make it an amazing one.</div>
+                        </div>
+                        <div class="footer__menu"><a class="footer__link" href="#">About Me</a><a class="footer__link"
+                                                                                                  href="#prjects">Projects</a><a
+                                class="footer__link" href="#">Contact</a>
+                            <a class="footer__link" target="_blank" href="https://github.com/ulidu">Github</a><a
+                                class="footer__link" target="_blank" href="mailto:ulidutheerake@gmail.com">Email</a></div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copyright">© 2021, Ulidu T Gunathilake.</div>
+                        <a class="footer__scroll js-scroll" href="#header">Back to top</a>
+                    </div>
+                </div>
+                <div class="footer__bg">
+                    <div class="footer__preview"><img alt="" class="footer__pic js-parallax"
+                                                      data-orientation="down" data-scale="1.5"
+                                                      src="img/content/footer-cube-1.png"/></div>
+                    <div class="footer__preview"><img alt="" class="footer__pic js-parallax"
+                                                      data-orientation="up" data-scale="1.8" src="img/content/footer-cube-1.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cursor"></div>
+</div>
+<script src="js/lib/jquery.min.js"></script>
+<script src="js/lib/owl.carousel.min.js"></script>
+<script src="js/lib/aos.js"></script>
+<script src="js/lib/simpleParallax.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>

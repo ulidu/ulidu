@@ -3,7 +3,102 @@
   <component name="ChangeListManager">
     <list default="true" id="74914552-8260-425c-b2a3-b8feff18e7a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/_common.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/helpers/_mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/helpers/_reset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/lib/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/lib/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/ava-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/bg-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/bg-main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cases-pic-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/color-picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/cursor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figure-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figure-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figure-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/figures-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/footer-cube-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/main-pic-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/review-cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/content/work-cube.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/lib/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/lib/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/lib/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/lib/simpleParallax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/css/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/css/plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/hero/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/logo/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/archive.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/briefcase.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/cancel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/contacs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/down.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/gear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/left-quote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/letter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/message.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/physics.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/placeholder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/shapes/10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/shapes/11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/shapes/6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/smartphone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/facebook-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/facebook.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/instagram-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/instagram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/linkedin-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/soundcloud.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/twitter-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/vimeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/youtube-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/social/youtube-3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/squares.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/text.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/user.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/web.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/writing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/svg/writing_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/thumbs/1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/thumbs/35-44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/thumbs/37-27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/img/thumbs/4-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/new/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/js/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/new/js/plugins.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +111,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +147,7 @@
       <workItem from="1615802147421" duration="411000" />
       <workItem from="1615812125916" duration="308000" />
       <workItem from="1616470916868" duration="3925000" />
+      <workItem from="1637856187601" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1615802311050</created>
