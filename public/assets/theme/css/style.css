@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.3px;
   background: #ffffff;
   overflow-x: hidden;
-  font: 300 13px/22px 'Open Sans', sans-serif;
+  font: 300 13px/22px 'Poppins', sans-serif;
 }
 @media (max-width: 992px) {
   .body-area {
@@ -148,7 +148,7 @@ body.dark-page .content-body {
 .itsme {
   background: #ffdb43;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
   padding: 2px 10px;
   color: #000000;
   margin-bottom: 2px;
