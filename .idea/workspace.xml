@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74914552-8260-425c-b2a3-b8feff18e7a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/p.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ulidu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ulidu.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/css/inc/vars.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/css/inc/vars.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/css/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +38,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -64,7 +60,8 @@
       <workItem from="1637856187601" duration="1759000" />
       <workItem from="1637982950043" duration="131000" />
       <workItem from="1638976038549" duration="2703000" />
-      <workItem from="1638983040985" duration="2557000" />
+      <workItem from="1638983040985" duration="2739000" />
+      <workItem from="1638988492815" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1615802311050</created>
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638983201848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial Commit">
+      <created>1638988392513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1638988392513</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
