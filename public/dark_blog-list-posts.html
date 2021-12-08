@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>It's Me - Personal Resume and Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="assets/external/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--favicon-->
+    <link rel="apple-touch-icon" href="assets/theme/img/ico.png">
+    <link rel="shortcut icon" href="assets/theme/img/ico.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Sarala:400,700%7COpen+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Theme Style -->
+    <link href="assets/theme/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Your custom css -->
+    <link href="assets/theme/css/theme-custom.css" rel="stylesheet">
+
+    <!-- Font Icons -->
+    <link href="assets/external/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Captcha -->
+    <link href="assets/external/simpleCaptcha/jquery.simpleCaptcha.css" rel="stylesheet">
+    <!-- lightbox -->
+    <link href="assets/external/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body class="dark-page">
+    <!-- Page Loader -->
+    <div class="page-loader">
+      <div class="v-align-center">
+        <div class="middle-content">
+          <div class="img-p-area"> <img src="assets/theme/img/profile-thumb.jpg" alt="" class="img-thumbnail no-radius"></div>
+          <span class="itsme" >it's me</span>
+          <h4>Fr. Jhone Doe</h4>
+          <p>please wait</p>
+          <div class="anim-pg">
+            <span ></span>
+          </div>
+          <div class="force-pg"><button type="button" id='force-close-pg' class="btn">Skip This &rarr;</button></div>
+        </div>
+      </div>
+    </div><!-- End Page Loader -->
+    <!-- body-area -->
+    <div class="body-area">
+      <!-- Header -->
+      <header class="main-header">
+        <div class="nav-main">
+          <span class="itsme">it's me </span>
+          <a href="#menu-ovefly" class="toogle-overfly"><i class="fa fa-bars open-t"></i> <i class="fa fa-times close-t"></i></a>
+          <a href="#search-ovefly" class="toogle-overfly"><i class="fa fa-search open-t"></i> <i class="fa fa-times close-t"></i></a>
+          <a href="#share-ovefly" class="toogle-overfly"><i class="fa fa-plus open-t"></i> <i class="fa fa-times close-t"></i></a>
+        </div>
+
+        <div class="over-fly-area" id="menu-ovefly">
+          <div class="inner-overfly">
+            <div class="middle-overfly">
+              <h2 class="title-over">Menu</h2>
+              <nav class="main-nav" id="menu">
+                <ul class="nav">
+                  <li ><a href="dark_index.html#aboutme" class="open-link" data-text="About Me"><span>About Me</span></a></li>
+                  <li><a href="dark_index.html#resume" class="open-link" data-text="My Resume"><span>Resume</span></a></li>
+                  <li><a href="dark_index.html#portfolio" class="open-link" data-text="My Portfolio"><span>Portfolio</span></a></li>
+                  <li class="active"><a href="#" ><span>Blog</span></a>
+                    <ul>
+                      <li><a href="dark_blog-list-posts.html"  class="open-link" >List Posts</a></li>
+                      <li><a href="dark_blog-single-post.html"  class="open-link">Single Post</a></li>
+                      <li><a href="#modal-example" data-toggle="modal" >Extra Pages</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="dark_index.html#contact" class="open-link"  data-text="Contact Me"><span>Contact</span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="over-fly-area" id="search-ovefly">
+          <div class="inner-overfly">
+            <div class="middle-overfly">
+              <h2 class="title-over">Find My Articles</h2>
+              <form class="from-search">
+                <div class="form-group">
+                  <input type="search" name="s" class="form-control input-lg input-search" placeholder="Input Text Here !" >
+                </div>
+                <div class="form-group">
+                  <button  class="btn btnc2"><span>Search</span></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="over-fly-area" id="share-ovefly">
+          <div class="inner-overfly">
+            <div class="middle-overfly">
+              <h2 class="title-over">Share This Page</h2>
+              <!-- You MUST change the URL definition in these links to share YOUR page - simply change the URL -->
+              <div class="social-share">
+                <a href="https://plus.google.com/share?url=http://www.yourwebsite.com" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                <a href="http://pinterest.com/pin/create/button/?url=http://www.yourwebsite.com" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                <a href="http://www.facebook.com/share.php?u=http://www.yourwebsite.com" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="http://twitter.com/home?status=http://www.yourwebsite.com" target="_blank"  data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- hero  -->
+        <div class="hero-01">
+          <div class="hero-border">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right">
+              <div class="v-area">
+                <div class="v-middle show-span" >
+                  <div class="p5" id="label-menu">
+                    <span>M</span>
+                    <span>Y</span>
+                    <span></span>
+                    <span>B</span>
+                    <span>L</span>
+                    <span>O</span>
+                    <span>G</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="my-thumb">
+            <div class="thumb-top"><a href="./assets/theme/img/pic/pic1.jpg" class="image-popup" title="This is Me."><img src="assets/theme/img/profile-thumb.jpg" class="img-thumbnail no-radius"  alt=""></a></div>
+          </div>
+
+          <div class="content-hero">
+            <div class="v-content">
+              <h4 class="font-normal">My Blog</h4>
+              <h1 class="myname">Fr. Jhone Doe</h1>
+              <h3 class="font-normal with-line">Web Designer & Web Developer From USA</h3>
+              <p ><a href="#" class="btn btnc1 open-link"><span>Check My Resume</span></a></p>
+            </div>
+          </div>
+        </div><!-- hero  -->
+      </header><!-- end HEader -->
+      <!-- Content body -->
+      <div class="content-body" >
+        <!-- big-qoute-->
+        <div class="section-padd bg2" >
+          <div class="container-body clearfix">
+            <div class="big-qoute text-center-small">
+              <h3>Happiness is like a kiss. You must share it to enjoy it. <small> Fr. Jhone Doe</small></h3>
+            </div>
+          </div>
+        </div><!--end big-qoute-->
+
+        <div class="section-padd br-t " >
+          <div class="container-body clearfix">
+            <div class="white-space-30"></div>
+
+            <!-- blog featured -->
+            <div class="blog-post-item">
+              <div class="post-header">
+                <span class="cat"><a href="#" >Design</a></span>
+                <h2><a href="#">Best Mockup Design 2015</a></h2>
+                <span class="title-divider"></span>
+                <span class="post-date">Posted on June 14, 2015</span>
+              </div>
+              <div class="post-img">
+                <a href="dark_blog-single-post.html" class="open-link"><img src="assets/theme/img/blog/bg5.jpg" class="img-full" alt=""></a>
+              </div>
+              <div class="post-entry">
+                <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. Shorts fixie consequat flexitarian four loko.</p>
+                <p>Exercitation photo booth stumptown tote bag Banksy, elit small batch freegan sed. Craft beer elit seitan exercitation, photo booth et 8-bit kale chips proident chillwave deep v laborum. Aliquip veniam delectus, Marfa eiusmod Pinterest in do umami readymade swag.&nbsp;Selfies iPhone Kickstarter, drinking vinegar jean.</p>
+                <p> <a href="dark_blog-single-post.html" class="open-link more-link">Continue Reading<span class="more-line"></span></a></p>
+              </div>
+
+              <div class="post-share clearfix">
+                <div class="post-share-box share-author col-sm-4">
+                  <span>By</span> <a href="#" title="Posts by solopine" rel="author">Jhon</a>		
+                </div>
+
+                <div class="post-share-box share-links col-sm-4">
+                  <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                  <a data-pin-do="skipLink" target="_blank" href="#"><i class="fa fa-pinterest"></i></a>
+                  <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+                <div class="post-share-box share-comments col-sm-4">
+                  <a href="#"><span>2</span> Comments</a>		
+                </div>
+              </div>
+            </div><!-- end blog featured -->
+
+            <!-- Grid blog -->
+            <div class="white-space-10"></div>
+            <div class="row grid-inline">
+              <div class="col-sm-6 grid-inline-box">
+                <div class="blog-post-item">
+                  <div class="post-img">
+                    <a href="dark_blog-single-post.html" class="open-link"><img src="assets/theme/img/blog/bg6.jpg" class="img-full" alt=""></a>
+                  </div>
+                  <div class="post-header text-left" >
+                    <h3 class="title-2"><span><a href="dark_blog-single-post.html" class="open-link">Tools for deisgn</a></span></h3>
+                  </div>
+                  <div class="post-entry">
+                    <p>Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. </p>
+                  </div>
+                  <span class="post-date">Posted on June 14, 2015</span>
+                </div>
+              </div><!-- remove white space
+              --><div class="col-sm-6 grid-inline-box">
+                <div class="blog-post-item">
+                  <div class="post-img">
+                    <a href="dark_blog-single-post.html" class="open-link"><img src="assets/theme/img/blog/bg7.jpg" class="img-full" alt=""></a>
+                  </div>
+                  <div class="post-header text-left">
+                    <h3 class="title-2"><span><a href="dark_blog-single-post.html" class="open-link">Coffee in the morning</a></span></h3>
+                  </div>
+                  <div class="post-entry">
+                    <p>Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. </p>
+                  </div>
+                  <span class="post-date">Posted on June 14, 2015</span>
+                </div>
+              </div><!--remove white space
+              --><div class="col-sm-6 grid-inline-box">
+                <div class="blog-post-item">
+                  <div class="post-img">
+                    <a href="dark_blog-single-post.html" class="open-link"><img src="assets/theme/img/blog/bg5.jpg" class="img-full" alt=""></a>
+                  </div>
+                  <div class="post-header text-left" >
+                    <h3 class="title-2"><span><a href="dark_blog-single-post.html" class="open-link">Best mockup design 2015 </a></span></h3>
+                  </div>
+                  <div class="post-entry">
+                    <p>Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. </p>
+                  </div>
+                  <span class="post-date">Posted on June 14, 2015</span>
+                </div>
+              </div><!--remove white space
+              --><div class="col-sm-6 grid-inline-box">
+                <div class="blog-post-item">
+                  <div class="post-img">
+                    <a href="dark_blog-single-post.html" class="open-link"><img src="assets/theme/img/blog/bg1.jpg" class="img-full" alt=""></a>
+                  </div>
+                  <div class="post-header text-left" >
+                    <h3 class="title-2"><span><a href="dark_blog-single-post.html" class="open-link">Time for desoign</a></span></h3>
+                  </div>
+                  <div class="post-entry">
+                    <p>Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings fanny pack, elit bespoke vinyl art party Pitchfork selfies master cleanse Kickstarter seitan retro. Drinking vinegar stumptown yr pop-up artisan sunt. Deep v cliche lomo biodiesel Neutra selfies. </p>
+                  </div>
+                  <span class="post-date">Posted on June 14, 2015</span>
+                </div>
+              </div>
+            </div><!-- end  Grid blog -->
+
+            <hr/>
+
+            <!-- pager-->
+            <nav>
+              <ul class="pager">
+                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Older <span class="hidden-sm hidden-xs">Posts</span></a></li>
+                <li class="next"><a href="#">Newer <span class="hidden-sm hidden-xs">Posts</span> <span aria-hidden="true">&rarr;</span></a></li>
+              </ul>
+            </nav><!-- end pager-->
+          </div>
+        </div>
+
+      </div><!-- end Content body -->
+
+      <!-- footer -->
+      <footer class="main-footer">
+        &COPY; 2015 it's me HTML Template
+      </footer><!-- footer -->
+    </div><!-- body-area -->
+
+
+    <!-- Modal Example-->
+    <div class="modal fade" id="modal-example" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Extra Pages</h4>
+          </div>
+          <div class="modal-body">
+            <ul class="list-boxpage">
+              <li><a href="dark_blog-list-posts.html" class="open-link">Blog List Post</a></li>
+              <li><a href="dark_blog-single-post.html" class="open-link">Blog Single Post</a></li>
+              <li><a href="dark_404.html" class="open-link">404 error</a></li>
+              <li><a href="dark_cooming-soon.html" class="open-link">Cooming Soon</a></li>
+              <li><a href="dark_theme-element.html" class="open-link">Theme Element</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+
+            <a href="#" class="btn btnc2 with-br " ><span>Buy This Theme</span></a>
+          </div>
+        </div>
+      </div>
+    </div><!-- end  Modal Example-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/external/jquery.min.js"></script>
+    <script src="assets/external/jquery.easing-1.3.pack.js"></script>
+
+    <!-- Include all compiled plugins (below)-->
+    <script src="assets/external/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/external/jquery.easypiechart.min.js"></script>
+    <script src="assets/external/isotope.pkgd.min.js"></script>
+    <script src="assets/external/validator/jquery.validate.min.js"></script>
+    <script src="assets/external/simpleCaptcha/jquery.simpleCaptcha.js"></script>
+    <script src="assets/external/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js"></script>
+    <script src="assets/external/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/external/metisMenu/metisMenu.js"></script>
+
+    <!-- theme config --> 
+    <script src="assets/theme/js/theme.js"></script>
+
+    <!-- map --> 
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
+    <script src="assets/external/gmap3.min.js"></script>
+    <script src="assets/theme/js/map.js"></script>
+  </body>
+</html>
