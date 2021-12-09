@@ -134,7 +134,8 @@
           </div>
 
           <div class="my-thumb">
-            <div class="thumb-top"><a href="./assets/theme/img/pic/pic1.jpg" class="image-popup" title="This is Me."><img src="assets/theme/img/profile-thumb.jpg" class="img-thumbnail no-radius"  alt=""></a></div>
+            <div class="thumb-top"><a href="javascript:window.location.reload(true)">
+              <img src="assets/theme/img/profile-thumb.jpg" class="img-thumbnail no-radius"  alt=""></a></div>
           </div>
 
           <div class="content-hero">
@@ -142,7 +143,7 @@
               <h4 class="font-normal">Hello, I'm</h4>
               <h1 class="myname">Ulindu Theerake</h1>
               <h3 class="font-normal with-line">Web Developer & UX/UI Designer From Sri Lanka</h3>
-              <p ><a href="#" class="btn btnc1"><span>Hire Me</span></a> <a href="#" class="btn btnc1"><span>Download Resume</span></a></p>
+              <p ><a href="#contact1" class="btn btnc1"><span>Hire Me</span></a> <a href="#" class="btn btnc1"><span>Download Resume</span></a></p>
             </div>
           </div>
         </div><!-- hero  -->
@@ -169,8 +170,8 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="img-pr">
-                    <a href="./assets/theme/img/pic/pic2.jpg" class="image-popup" title="This is Me.">
-                      <img src="assets/theme/img/profile.jpg" alt="" >
+                    <a href="./assets/theme/img/profile1.png" class="image-popup">
+                      <img src="assets/theme/img/profile.png" alt="" >
                     </a>
                   </div>
                   <h2 class="title"><span>Hello There</span></h2>
@@ -719,19 +720,17 @@
         <section id='contact'>
 
           <!-- map -->
-          <div class="map-area  br-t br-b">
-            <!-- change data-lat="48.856318" data-lng="2.351866" with your location-->
-            <div class="map" id="map" data-lat="48.856318" data-lng="2.351866"></div>
-            <div class="map-scroll-space"></div>
-            <div class="map-wait-msg">Plase Wait...</div>
+          <div style="margin-bottom: -0.6rem;" class="map-area">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7910.168094558574!2d80.29746!3d7.5658156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae331c0653433cd%3A0x989c141975d425f0!2sElemahana!5e0!3m2!1sen!2ssg!4v1639059937482!5m2!1sen!2ssg" style="border:0; width: 100%; height: 500px;" allowfullscreen="" loading="lazy"></iframe>
             <div class="map-detail-location">
-              <h4>Locations:</h4>
-              <p>Jl Karanggan no 132 Bandung Indonesia</p>
+              <h4 style="font-weight: bold;">Location</h4>
+              <p>No. 333, Sisil Sewana, Kelimune, Maspotha.</p>
             </div>
           </div><!-- end map -->
 
           <!-- contact form -->
-          <div class="section-padd">
+          <div id="contact1" class="section-padd">
             <div class="container-body clearfix">
               <h2 class="title dark"><span>Let's Talk About <small id='show-subject'>...</small> <small><a href="#" class="fire-toogle-subject mini-arrow"><i class="fa fa-angle-down"></i></a></small></span></h2>
               <div class="dropdown top-min">
@@ -739,7 +738,6 @@
                 <ul class="dropdown-menu" id="option_subject" >
                   <li><a href="#">The Next Project</a></li>
                   <li><a href="#">The Next Design</a></li>
-                  <li><a href="#">The Next Mobile Apps</a></li>
                   <li><a href="#">Say Hi</a></li>
                 </ul>
               </div>
@@ -836,7 +834,7 @@
 
       <!-- footer -->
       <footer class="main-footer">
-        &COPY; 2015 it's me HTML Template
+        &COPY; <script>document.write(new Date().getFullYear())</script>, Ulindu Theerake.
       </footer><!-- footer -->
     </div><!-- body-area -->
 
@@ -845,7 +843,7 @@
     <div class="over-fly-area" id="load-works">
       <div class="inner-overfly" id="work-wait-msg">
         <div class="middle-overfly">
-          <h2 class="title-over">PLASE WAIT...</h2>
+          <h2 class="title-over">PLEASE WAIT...</h2>
         </div>
       </div>
       <div class="work-close"><a href="#" class="close-panel-work btn btn-xs btn-default" >Close</a></div>
@@ -864,7 +862,7 @@
               <li><a href="blog-list-posts.html" class="open-link">Blog List Post</a></li>
               <li><a href="blog-single-post.html" class="open-link">Blog Single Post</a></li>
               <li><a href="404.html" class="open-link">404 error</a></li>
-              <li><a href="cooming-soon.html" class="open-link">Cooming Soon</a></li>
+              <li><a href="cooming-soon.html" class="open-link">Coming Soon</a></li>
               <li><a href="theme-element.html" class="open-link">Theme Element</a></li>
             </ul>
           </div>
@@ -893,9 +891,6 @@
     <!-- theme config --> 
     <script src="assets/theme/js/theme.js"></script>
 
-    <!-- map --> 
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
-    <script src="assets/external/gmap3.min.js"></script>
-    <script src="assets/theme/js/map.js"></script>
+
   </body>
 </html>

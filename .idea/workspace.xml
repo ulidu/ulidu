@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74914552-8260-425c-b2a3-b8feff18e7a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/GOTHIC.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/GOTHICB.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/century-gothic-bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/century-gothic-reg.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/logo.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/logo/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/pic/pic1a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/profile-thumb1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/h.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.cHVibGlj.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/theme/img/profile1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/css/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/ico.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/icon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/pic/pic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/pic/pic1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/profile-thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/theme/img/profile-thumb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/p.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/p.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/theme/img/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/light_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/light_index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +65,7 @@
       <workItem from="1638976038549" duration="2703000" />
       <workItem from="1638983040985" duration="2739000" />
       <workItem from="1638988492815" duration="70000" />
-      <workItem from="1639009512162" duration="11681000" />
+      <workItem from="1639009512162" duration="18930000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1615802311050</created>
@@ -200,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638988537454</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Initial Commit">
+      <created>1639054954382</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639054954382</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Initial Commit">
+      <created>1639054963192</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639054963192</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
