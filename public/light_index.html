@@ -37,7 +37,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body >
+  <body id="top_b">
   <!-- Page Loader -->
   <div class="page-loader">
     <div class="v-align-center">
@@ -61,7 +61,7 @@
       <!-- Header -->
       <header class="main-header">
         <div class="nav-main">
-  <span class="itsme">It's me </span>
+  <span class="itsme" id="top_btn">It's me </span>
 
 
 
@@ -135,7 +135,7 @@
 
           <div class="my-thumb">
             <div class="thumb-top"><a href="javascript:window.location.reload(true)">
-              <img src="assets/theme/img/profile-thumb.jpg" class="img-thumbnail no-radius"  alt=""></a></div>
+              <img style="padding: 1.2rem;" src="assets/theme/img/logo/s1.png" class="img-thumbnail no-radius"  alt=""></a></div>
           </div>
 
           <div class="content-hero">
@@ -154,6 +154,11 @@
         <!-- start about me section -->
         <section id="aboutme">
           <div class="section-padd bg2" >
+
+
+
+
+
             <div class="container-body clearfix">
               <div class="big-qoute">
                 <h3>
@@ -163,7 +168,9 @@
 
      </h3>
               </div>
+
             </div>
+
           </div>
           <div class="section-padd top-bold-border" >
             <div class="container-body clearfix">
@@ -891,6 +898,13 @@
     <!-- theme config --> 
     <script src="assets/theme/js/theme.js"></script>
 
+<script>
+  $("#top_btn").click(function(){   //id of the link which is being clicked
+    $('html, body').animate({
+      scrollTop: $("#top_b").offset().top   //id of div to be scrolled
+    }, 1000);
+  });
+</script>
 
   </body>
 </html>

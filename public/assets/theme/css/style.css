@@ -209,11 +209,13 @@ body.dark-page .content-body {
 }
 .bg2 {
   background-color: #f2f2f2;
-  background: url(../img/brickwall.png) !important;
+  background: url(../img/bg.jpg) !important;
+
 }
+
 .dark-page .bg2 {
   background-color: #000000;
-  background: url(../img/pat1.png) !important;
+  background: url(../img/bg.jpg) !important;
 }
 .p5 {
   padding: 5px 0;
@@ -419,9 +421,8 @@ body.dark-page .content-body {
 }
 .big-qoute h3 {
   font-size: 40px !important;
-
   font-weight: 700;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
   color: #333;
   position: relative;
   border-bottom: 0 solid #c9c9c9;
@@ -685,7 +686,7 @@ button:focus {
   z-index: 2;
 }
 .main-header .main-nav > ul > li > a:hover {
-  text-decoration: line-through;
+  font-weight: bold;
 }
 .main-header .main-nav > ul > li ul {
   margin: 0;
@@ -768,7 +769,7 @@ button:focus {
   bottom: 0;
   z-index: 180;
   left: 50%;
-  background: url(../img/brickwall.png);
+  background: url(../img/bg.jpg);
   overflow: auto;
   display: none;
 }
@@ -1109,7 +1110,7 @@ button:focus {
 ----------------------------------------------------------------------------- */
 .bg-section {
   position: relative;
-  background: url(../img/brickwall.png);
+  background: url(../img/bg.jpg);
   height: 300px;
   /*  &:before{
     content: "";
