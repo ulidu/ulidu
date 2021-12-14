@@ -345,9 +345,8 @@ body.dark-page .content-body {
   margin-bottom: 20px;
 }
 .list-force-img li img {
-  height: 34px;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  height: 50px;
+  opacity: 1;
   transition: all 0.6s ease 0s;
   -webkit-transition: all 0.6s ease 0s;
   -moz-transition: all 0.6s ease 0s;
