@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/ulidu/ulidu/master/public/img/1.png" width='500'>
+  <img src="https://raw.githubusercontent.com/ulidu/ulidu/master/public/img/1.png">
 </p>
 
 <h2>Hey there! <img alt="" src="https://github.com/ulidu/ulidu/raw/master/public/img/Hand%20Wave1.gif.gif" width='70' align="left"/> I'm Ulidu T Gunathilake. <br>I'm a front-end web developer & UI/UX designer. <img align="right" src="https://komarev.com/ghpvc/?username=ulidu&label=Profile%20views&color=0e75b6&style=flat-square" alt="ulidu" /></h2>
